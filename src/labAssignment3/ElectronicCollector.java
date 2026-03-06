@@ -1,6 +1,6 @@
 package labAssignment3;
 
-public class OrganicCollector implements WasteCollector {
+public class ElectronicCollector implements WasteCollector {
     private WasteCollector nextInChain;
 
     @Override
@@ -10,8 +10,8 @@ public class OrganicCollector implements WasteCollector {
 
     @Override
     public void collect(WasteContainer container) {
-        if (container.getType().equalsIgnoreCase("Organic")) {
-            System.out.println("Organic Collector: Disposing " + container.getCapacity() + "kg of organic waste.");
+        if (container.getType().equalsIgnoreCase("Electronic")) {
+            System.out.println("Electronic Collector: Disposing " + container.getCapacity() + "kg of electronic waste.");
         } else if (nextInChain != null) {
             nextInChain.collect(container);
         } else {

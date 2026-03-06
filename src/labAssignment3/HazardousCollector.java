@@ -11,7 +11,7 @@ public class HazardousCollector implements WasteCollector {
     @Override
     public void collect(WasteContainer container) {
         if (container.getType().equalsIgnoreCase("Hazardous")) {
-            System.out.println("Hazardous Collector: CAUTION! Safely disposing of " + container.getCapacity() + "kg of hazardous waste.");
+            System.out.println("Hazardous Collector: CAUTION! Safely disposing " + container.getCapacity() + "kg of hazardous waste.");
         } else if (nextInChain != null) {
             nextInChain.collect(container);
         } else {

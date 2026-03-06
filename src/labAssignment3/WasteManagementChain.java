@@ -8,10 +8,12 @@ public class WasteManagementChain implements WasteCollector {
         this.chain = new OrganicCollector();
         WasteCollector c2 = new RecyclableCollector();
         WasteCollector c3 = new HazardousCollector();
+        WasteCollector c4 = new ElectronicCollector();
 
         // Set the chain sequence
         chain.setNextChain(c2);
         c2.setNextChain(c3);
+        c3.setNextChain(c4);
     }
 
     @Override

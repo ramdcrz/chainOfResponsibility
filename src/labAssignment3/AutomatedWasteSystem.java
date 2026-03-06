@@ -9,7 +9,7 @@ public class AutomatedWasteSystem {
         WasteContainer bin1 = new WasteContainer("Organic", 25);
         WasteContainer bin2 = new WasteContainer("Recyclable", 10);
         WasteContainer bin3 = new WasteContainer("Hazardous", 5);
-        WasteContainer bin4 = new WasteContainer("Electronic", 15); // Unknown type
+        WasteContainer bin4 = new WasteContainer("Electronic", 15);
 
         // Trigger collection process
         System.out.println("--- Starting Waste Collection Process ---");

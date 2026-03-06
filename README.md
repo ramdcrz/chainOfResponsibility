@@ -12,7 +12,7 @@ Develop an automated waste management system that uses a chain of responsibility
 ## Requirements
 
 ### Waste Container
-Create a class to represent waste containers, each with a specific capacity and type of waste (e.g., organic, recyclable, hazardous).
+Create a class to represent waste containers, each with a specific capacity and type of waste (e.g., organic, recyclable, hazardous, electronic).
 
 ### Waste Collection Chain
 Implement a chain of responsibility pattern to handle different types of waste containers. Each handler in the chain should be responsible for collecting and disposing of a specific type of waste.
