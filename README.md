@@ -49,4 +49,4 @@ java -cp src labAssignment3.AutomatedWasteSystem
 Or use your preferred Java IDE to execute `AutomatedWasteSystem.java`.
 
 ## UML Diagram
-![alt text](https://github.com/ramdcrz/chainOfResponsibility/blob/main/chainOfResponsibility_UML.jpg)
+![alt text](https://github.com/ramdcrz/chainOfResponsibility/blob/main/chainOfResponsibility_UML.png)
